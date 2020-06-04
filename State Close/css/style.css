@@ -1,0 +1,88 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form {
+  width: 300px;
+  padding: 32px;
+  border-radius: 10px;
+  box-shadow: 0 4px 16px #ccc;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+}
+
+.form__input,
+.form__button {
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  font-size: 16px;
+}
+
+.form__title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: normal;
+}
+
+.form__state {
+  text-align: center;
+  font-weight: normal;
+}
+
+.form__num {
+  text-align: center;
+
+  font-size: 80px;
+}
+
+.number {
+  font-size: 40px;
+}
+
+.form__romms {
+  width: 100%;
+  margin-bottom: 200px;
+  padding: 10px 20px;
+
+  border: 2px solid #0071f0;
+  font-size: 16px;
+  border-radius: 10px;
+  font-size: 16px;
+  overflow: auto;
+}
+
+.status {
+  width: 100%;
+  padding: 10px 20px;
+  margin-bottom: 100px;
+  border: 2px solid #0071f0;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.form__button-red {
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  font-size: 16px;
+  padding: 10px 20px;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #0071f0;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s;
+  display: block;
+  margin: 0 auto 50px;
+}
+
+
+.form__button-red :focus,
+.form__button-red:hover {
+  background-color: rgba(231, 4, 4, 0.7);
+}
+
